@@ -2,7 +2,7 @@
   "name": "orbitx",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://MNnazrul.github.io/OrbitX",
+  "homepage": "https://mnnazrul.github.io/OrbitX",
   "type": "module",
   "scripts": {
     "dev": "vite",
