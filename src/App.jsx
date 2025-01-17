@@ -6,7 +6,7 @@ import Hero from "./components/Hero/Hero";
 function App() {
   return (
     <div>
-      <div>
+      <div className="h-[700px] relative">
         <video
           autoPlay
           loop
