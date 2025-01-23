@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import Banner from "./components/Banner/Banner";
+import Banner2 from "./components/Banner/Banner2";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </div>
       <Services />
       <Banner />
+      <Banner2 />
     </div>
   );
 }
