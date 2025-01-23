@@ -1,7 +1,7 @@
 import React from "react";
-import sateliteImg from "../../assets/satelite1.jpg";
+import sateliteImg from "../../assets/satelite2.jpg";
 
-function Banner() {
+function Banner2() {
   return (
     <div className="bg-black text-white pb-10 relative z-50">
       <div className="container">
@@ -26,4 +26,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default Banner2;
