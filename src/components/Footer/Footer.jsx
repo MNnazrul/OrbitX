@@ -90,24 +90,26 @@ function Footer() {
         </div>
         {/* bottom section */}
         <div className="hidden sm:block">
-          <div className="flex justify-between items-center ">
-            <span>copyright &copy; MNnazrul</span>
-            <div>
+          <div className="flex justify-between items-center py-6 border-t-2 border-gray-400 ">
+            <span className="text-sm text-gray-400">
+              copyright &copy; MNnazrul
+            </span>
+            <div className="flex items-center justify-center gap-4 pb-4">
               <a
                 href="https://web.facebook.com/nazrulislam.islam.7587/"
                 target="_blank"
               >
-                <FaFacebook />
+                <FaFacebook className="text-4xl" />
               </a>
               <a href="https://www.linkedin.com/in/mnnazrul/" target="_blank">
-                <FaLinkedin />{" "}
+                <FaLinkedin className="text-4xl" />{" "}
               </a>
               <a href="https://codeforces.com/profile/MNnazrul" target="_blank">
-                <FaHackerrank />
+                <FaHackerrank className="text-4xl" />
               </a>
             </div>
-            <span>
-              <ul>
+            <span className="text-sm text-gray-400">
+              <ul className="flex gap-3">
                 <li>Privacy Policy</li>
                 <li>Term & Conditions</li>
               </ul>
