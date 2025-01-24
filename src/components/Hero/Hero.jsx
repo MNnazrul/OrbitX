@@ -7,14 +7,22 @@ function Hero() {
       <div className="h-full flex justify-center items-center p-4">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
           <div className="space-y-4 lg:pr-36">
-            <h1 className="text-5xl font-bold uppercase">Orbite The Earth</h1>
-            <p>
+            <h1 data-aos="fade-up" className="text-5xl font-bold uppercase">
+              Orbite The Earth
+            </h1>
+            <p data-aos="fade-up" data-aos-delay="200">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur et qui repudiandae sequi, tempora accusantium enim
               voluptas perspiciatis earum similique fugit sapiente veritatis,
               quas numquam alias? Voluptatem eligendi odit cupiditate.
             </p>
-            <button className="primary-button">Learn More</button>
+            <button
+              data-aos="fade-up"
+              data-aos-delay="400"
+              className="primary-button"
+            >
+              Learn More
+            </button>
           </div>
         </div>
       </div>
